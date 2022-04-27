@@ -1,0 +1,38 @@
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding-top: 150px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+}
+
+.name-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+  width: 200px;
+}
+
+.button {
+  padding: 6px 18px;
+  background-color: #ffffff;
+  color: #dd1264;
+  border-radius: 6px;
+  border-style: none;
+}
+
+.name {
+  padding: 30px 80px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: 600;
+}
